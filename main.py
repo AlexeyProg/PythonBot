@@ -3,16 +3,6 @@ import telebot
 
 
 HELP = "Справка по программе"
-token = '5043459184:AAE0lzfY51HOZpI-sMImiFUTsyOJSxoQgd8'
-bot = telebot.TeleBot(token)
-
-def help(message):
-    bot.send_message(message.chat.id, HELP)
-
-
-bot.polling(none_stop=True)
-
-
 
 RANDOM_TASK = ["Записаться","Гамзануть","Skam"]
 
